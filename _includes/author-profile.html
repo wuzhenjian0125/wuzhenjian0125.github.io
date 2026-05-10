@@ -1,0 +1,27 @@
+{% if page.lang == 'zh' %}
+    {% assign profile_text = site.data.profile.zh %}
+{% else %}
+    {% assign profile_text = site.data.profile.en %}
+{% endif %}
+<section class="profile-box">
+    <div class="profile-box__figure">
+        <img src="{{ '/assets/images/hero-academic.png' | relative_url }}" alt="{{ profile_text.name }}" loading="eager">
+    </div>
+    <div class="profile-box__content">
+        <p class="profile-box__label">{% if page.lang == 'zh' %}学术主页{% else %}Academic Homepage{% endif %}</p>
+        <h1 class="profile-box__name">{{ profile_text.name }}</h1>
+        <p class="profile-box__alt-name">{{ profile_text.name_secondary }}</p>
+        <p class="profile-box__position">{{ profile_text.position }}</p>
+        <p class="profile-box__affiliation">{{ profile_text.affiliation }}</p>
+        <div class="profile-box__meta">
+            <p>{{ profile_text.location }}</p>
+            <p><a href="mailto:{{ profile_text.email }}">{{ profile_text.email }}</a></p>
+        </div>
+        <ul class="profile-box__highlights">
+            {% for item in profile_text.highlight_items %}
+            <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+        <p class="profile-box__note">{{ profile_text.contact_note }}</p>
+    </div>
+</section>

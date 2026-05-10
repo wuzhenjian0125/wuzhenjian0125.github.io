@@ -1,0 +1,16 @@
+{% if page.lang == 'zh' %}
+    {% assign nav = site.data.navigation.zh %}
+{% else %}
+    {% assign nav = site.data.navigation.en %}
+{% endif %}
+<header class="masthead">
+    <div class="masthead__inner">
+        <a class="masthead__home" href="{{ nav.home_url | relative_url }}">{{ nav.home_label }}</a>
+        <nav class="masthead__nav" aria-label="Section navigation">
+            {% for link in nav.main %}
+            <a class="masthead__link" href="{{ link.url | relative_url }}">{{ link.title }}</a>
+            {% endfor %}
+        </nav>
+        <a class="masthead__lang" href="{{ nav.switch_url | relative_url }}">{{ nav.switch_label }}</a>
+    </div>
+</header>

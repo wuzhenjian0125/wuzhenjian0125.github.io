@@ -1,29 +1,21 @@
 ---
-layout: default
-title: 论文
-lang: zh
-nav_key: publications
-alt_url: /publications/
-description: 武振建的已发表论文与工作论文。
+layout: null
+permalink: /zh/publications/
 ---
-{% assign labels = site.data.display.labels.zh %}
-<section class="content-card">
-    <div class="section-heading">
-        <h1 class="page-title">{{ labels.all_publications }}</h1>
-    </div>
-    <p class="page-intro">{{ labels.publication_page_intro }}</p>
-</section>
-
-{% for group in site.data.display.publication_groups %}
-<section class="content-card">
-    <div class="section-heading">
-        <h2>{% if group == 'published' %}{{ labels.published }}{% else %}{{ labels.working }}{% endif %}</h2>
-    </div>
-    <div class="stack-list">
-        {% assign items = site.publications | where: "category", group | sort: "date" | reverse %}
-        {% for item in items %}
-            {% include publication_item.html item=item %}
-        {% endfor %}
-    </div>
-</section>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url={{ '/zh/' | relative_url }}#publications">
+  <link rel="canonical" href="{{ '/zh/' | relative_url }}#publications">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>跳转中…</title>
+  <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
+</head>
+<body class="lang-zh">
+  <div class="redirect-shell">
+    <h1>正在跳转到论文部分</h1>
+    <p>如果没有自动跳转，请<a href="{{ '/zh/' | relative_url }}#publications">点击这里</a>。</p>
+  </div>
+</body>
+</html>

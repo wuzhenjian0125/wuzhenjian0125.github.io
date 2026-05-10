@@ -1,36 +1,21 @@
 ---
-layout: default
-title: 研究与资源
-lang: zh
-nav_key: projects
-alt_url: /projects/
-description: 武振建的研究项目、数据资源、方法能力与合作方向。
+layout: null
+permalink: /zh/projects/
 ---
-{% assign labels = site.data.display.labels.zh %}
-<section class="content-card">
-    <div class="section-heading">
-        <h1 class="page-title">{{ labels.all_projects }}</h1>
-    </div>
-    <p class="page-intro">{{ labels.project_page_intro }}</p>
-</section>
-
-{% for group in site.data.display.project_groups %}
-<section class="content-card">
-    <div class="section-heading">
-        <h2>
-            {% case group %}
-                {% when 'research' %}{{ labels.research }}
-                {% when 'data' %}{{ labels.data }}
-                {% when 'methods' %}{{ labels.methods }}
-                {% else %}{{ labels.collaboration_group }}
-            {% endcase %}
-        </h2>
-    </div>
-    <div class="project-grid">
-        {% assign items = site.projects | where: "group", group | sort: "date" | reverse %}
-        {% for item in items %}
-            {% include project_item.html item=item %}
-        {% endfor %}
-    </div>
-</section>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url={{ '/zh/' | relative_url }}#research-resources">
+  <link rel="canonical" href="{{ '/zh/' | relative_url }}#research-resources">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>跳转中…</title>
+  <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
+</head>
+<body class="lang-zh">
+  <div class="redirect-shell">
+    <h1>正在跳转到研究资源部分</h1>
+    <p>如果没有自动跳转，请<a href="{{ '/zh/' | relative_url }}#research-resources">点击这里</a>。</p>
+  </div>
+</body>
+</html>

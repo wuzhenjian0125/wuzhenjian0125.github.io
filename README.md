@@ -1,24 +1,30 @@
 # wuzhenjian0125.github.io
 
-武振建的中英双语学术主页。网站默认打开英文版，中文完整版本位于 `/zh/`，两种语言都可以通过导航栏自由切换；旧的 `/en/` 路径保留为英文跳转。
+Bilingual academic homepage for Zhenjian Wu. The website opens in English by default at `/`, and a complete Chinese mirror page is available at `/zh/`.
 
-## 结构
+## Structure
 
-- `index.html`、`publications.html`、`projects.html`：英文默认页面
-- `zh/`：中文页面
-- `en/`：兼容旧链接的英文跳转页面
-- `_data/`：双语个人信息、导航与展示配置
-- `_publications/`：论文条目
-- `_projects/`：研究项目、数据资源、方法能力与合作方向
-- `assets/css/global.css`：站点样式
+- `_pages/about.md`: English single-page homepage
+- `_pages/about-zh.md`: Chinese mirror homepage
+- `_data/profile.yml`: bilingual profile, education, experience, awards, and research-interest data
+- `_publications/`: publication entries and working papers
+- `_projects/`: research projects, data resources, methods, and collaboration topics
+- `_data/navigation.yml`: bilingual anchor navigation and language switch targets
+- `publications.html`, `projects.html`, `zh/*.html`, `en/*.html`: compatibility redirects to single-page anchors
 
-## 本地预览
+## Maintenance
 
-安装 Ruby 与 Bundler 后可运行：
+- Keep English and Chinese pages structurally aligned.
+- Update publications, working papers, and research resources through structured entries first.
+- Keep the public repo free of `个人材料/`, private attachments, `cv.pdf`, and any maintenance-only files such as `AGENTS.md`.
+
+## Local Preview
+
+Install Ruby and Bundler, then run:
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-默认访问地址为 `http://127.0.0.1:4000`。
+Open `http://127.0.0.1:4000`.

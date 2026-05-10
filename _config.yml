@@ -1,14 +1,25 @@
-title: "武振建 | Zhenjian Wu"
-description: "中文为主、支持中英文切换的学术主页"
+title: "Zhenjian Wu"
+description: "Bilingual academic homepage with English as the default entry and a complete Chinese mirror page."
 baseurl: ""
 url: "https://wuzhenjian0125.github.io"
-lang: zh-CN
+repository: "wuzhenjian0125/wuzhenjian0125.github.io"
+lang: en
 timezone: Asia/Shanghai
 markdown: kramdown
 permalink: pretty
+include:
+  - _pages
 
 collections:
   publications:
     output: false
   projects:
     output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
