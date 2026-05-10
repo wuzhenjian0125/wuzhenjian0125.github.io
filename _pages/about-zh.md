@@ -134,16 +134,6 @@ description: "武振建中文学术主页，英文版为默认入口。"
   </ul>
 </section>
 
-<span class="anchor" id="honors-and-awards"></span>
-<section class="content-section">
-  <h2>荣誉奖励</h2>
-  <ul class="award-list">
-    {% for item in site.data.profile.awards %}
-    <li><span>{{ item.date }}</span> {{ item.name_zh }}</li>
-    {% endfor %}
-  </ul>
-</section>
-
 <span class="anchor" id="collaboration"></span>
 <section class="content-section">
   <h2>合作</h2>

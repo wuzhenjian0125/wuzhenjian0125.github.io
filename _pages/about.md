@@ -137,16 +137,6 @@ redirect_from:
   </ul>
 </section>
 
-<span class="anchor" id="honors-and-awards"></span>
-<section class="content-section">
-  <h2>Honors and Awards</h2>
-  <ul class="award-list">
-    {% for item in site.data.profile.awards %}
-    <li><span>{{ item.date }}</span> {{ item.name_en }}</li>
-    {% endfor %}
-  </ul>
-</section>
-
 <span class="anchor" id="collaboration"></span>
 <section class="content-section">
   <h2>Collaboration</h2>
