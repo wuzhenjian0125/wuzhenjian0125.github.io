@@ -134,23 +134,6 @@ description: "武振建中文学术主页，英文版为默认入口。"
   </ul>
 </section>
 
-<span class="anchor" id="experience"></span>
-<section class="content-section">
-  <h2>科研与实践经历</h2>
-  <ul class="timeline-list">
-    {% for item in site.data.profile.experience %}
-    <li>
-      <span class="timeline-date">{{ item.date }}</span>
-      <div>
-        <strong>{{ item.role_zh }}</strong>
-        <p class="timeline-org">{{ item.org_zh }}</p>
-        <p>{{ item.summary_zh }}</p>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-
 <span class="anchor" id="honors-and-awards"></span>
 <section class="content-section">
   <h2>荣誉奖励</h2>

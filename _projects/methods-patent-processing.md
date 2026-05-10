@@ -2,10 +2,10 @@
 date: 2025-11-15
 group: methods
 selected: true
-title_zh: "专利数据处理与研究化构建"
-title_en: "Patent-data Processing for Research Use"
-description_zh: "熟悉全量专利数据的清洗、匹配与研究变量构建，可根据项目需要进行文本、申请主体与创新指标层面的再加工。"
-description_en: "Can clean, match, and transform large-scale patent data into research-ready variables, including textual, applicant-level, and innovation-related measures."
-note_zh: "适合创新、技术扩散与企业能力研究。"
-note_en: "Supports research on innovation, technology diffusion, and firm capabilities."
+title_zh: "Python 与研究化数据处理"
+title_en: "Python-based Research Data Processing"
+description_zh: "能够使用 Python 对招聘、工商、专利等多源数据进行清洗、匹配、变量构建与研究化处理，为会计与实证研究提供数据基础。"
+description_en: "Uses Python to clean, match, construct variables from, and transform hiring, registry, patent, and other multi-source datasets into research-ready inputs for accounting and empirical research."
+note_zh: "支持从数据整理到模型实现的完整实证流程。"
+note_en: "Supports the full empirical workflow from data engineering to model implementation."
 ---

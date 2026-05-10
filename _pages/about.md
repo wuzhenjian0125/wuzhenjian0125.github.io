@@ -137,23 +137,6 @@ redirect_from:
   </ul>
 </section>
 
-<span class="anchor" id="experience"></span>
-<section class="content-section">
-  <h2>Research and Practice</h2>
-  <ul class="timeline-list">
-    {% for item in site.data.profile.experience %}
-    <li>
-      <span class="timeline-date">{{ item.date_en }}</span>
-      <div>
-        <strong>{{ item.role_en }}</strong>
-        <p class="timeline-org">{{ item.org_en }}</p>
-        <p>{{ item.summary_en }}</p>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-
 <span class="anchor" id="honors-and-awards"></span>
 <section class="content-section">
   <h2>Honors and Awards</h2>

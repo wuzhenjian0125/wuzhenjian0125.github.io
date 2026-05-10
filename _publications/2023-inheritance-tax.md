@@ -1,8 +1,8 @@
 ---
 date: 2023-11-01
 year: 2023
-category: published
-selected: true
+category: archived
+selected: false
 title_zh: "第三次分配视域下开征遗产税问题研析"
 title_en: "Introducing Inheritance Tax from the Perspective of Tertiary Distribution"
 authors_zh: "导师一作，武振建二作"

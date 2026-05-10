@@ -2,10 +2,10 @@
 date: 2025-03-01
 group: research
 selected: true
-title_zh: "数字经济反垄断与企业创新机制"
-title_en: "Digital-economy Antitrust and Corporate Innovation"
-description_zh: "参与国家社会科学基金一般项目，关注数字经济背景下竞争政策如何影响企业创新的机制与效应。"
-description_en: "Participates in a National Social Science Fund project on how competition policy in the digital economy influences corporate innovation."
-note_zh: "国家社会科学基金一般项目，在研。"
-note_en: "General project funded by the National Social Science Fund of China, ongoing."
+title_zh: "国家社会科学基金项目参与"
+title_en: "Participation in National Social Science Fund Projects"
+description_zh: "硕士和博士阶段多次参与国家社会科学基金项目，研究议题涉及数字经济、竞争政策、企业创新与相关制度经济后果。"
+description_en: "During both the master's and Ph.D. stages, participated in multiple National Social Science Fund projects on topics including the digital economy, competition policy, corporate innovation, and related institutional consequences."
+note_zh: "以研究设计、经验识别和实证执行支持项目推进。"
+note_en: "Contributed to project development through research design, empirical identification, and implementation."
 ---

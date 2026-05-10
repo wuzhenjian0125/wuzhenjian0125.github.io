@@ -9,26 +9,26 @@ zh:
   bio: >-
     武振建，中南财经政法大学会计学博士生。研究关注 AI 在财务、会计与审计中的应用，
     以及中国非上市企业、劳动市场、分析师与债券市场等议题。当前工作强调利用大规模招聘、
-    工商和专利数据开展可复制的实证研究，并结合文本分析、因果识别与组态分析等方法推动问题识别与机制解释。
+    工商和专利数据开展可复制的实证研究，并将面板分析、多种 DID 技术、大模型微调、
+    Python、机器学习与 QCA 等方法用于会计学研究。
   bio_extra: >-
-    这个主页既用于展示当前研究进展，也希望与对中国企业、创新、劳动市场和 AI 经济后果感兴趣的研究者建立合作。
+    希望与对中国企业、创新、劳动市场、非上市企业和 AI 经济后果感兴趣的研究者建立合作。
   signature_line: "关注技术变迁如何进入企业、信息环境与真实经济活动。"
   highlight_items:
     - "AI 与财会审"
     - "劳动市场与非上市企业"
     - "招聘、工商与专利数据"
-    - "文本分析、DID 与 QCA"
+    - "面板分析、DID、机器学习与 QCA"
   overview_cards:
     - title: "研究议题"
       body: "围绕 AI、企业信息环境、劳动市场和非上市企业行为展开研究，强调技术变迁与制度环境的交互。"
     - title: "数据基础"
       body: "可使用招聘数据、工商数据、上市公司创新专利数据，并熟悉全量专利数据的研究化处理。"
     - title: "方法路线"
-      body: "结合文本分析、双重差分、组态分析与机制识别，尽量把研究问题转化为可复核的经验设计。"
+      body: "掌握面板分析、多种 DID 技术、大模型微调、Python、机器学习与 QCA 在会计学研究中的应用，并擅长对实证论文进行设计。"
   collaboration: >-
     欢迎围绕 AI 与财会审、劳动市场、非上市企业、创新与专利等主题开展合作。
     如果你对共同写作、数据共建、研究设计讨论或方法交流感兴趣，欢迎通过邮箱联系。
-  contact_note: "当前站点仅公开邮箱，不提供私人文件下载。"
 
 en:
   site_title: "Zhenjian Wu"
@@ -42,29 +42,28 @@ en:
     Zhenjian Wu is a Ph.D. student in Accounting at Zhongnan University of Economics and Law.
     His research focuses on AI in accounting, finance, and auditing, as well as Chinese non-listed firms,
     labor markets, analysts, and bond markets. He is particularly interested in building reproducible empirical
-    research with large-scale hiring, firm registry, and patent data, using text analysis, causal identification,
-    and configurational methods.
+    research with large-scale hiring, firm registry, and patent data, and in applying panel analysis, multiple DID
+    designs, LLM fine-tuning, Python, machine learning, and QCA to accounting research.
   bio_extra: >-
-    This website serves both as a public academic profile and as an invitation for future collaborators
-    interested in Chinese firms, innovation, labor markets, and the economic consequences of AI.
+    Open to collaboration with researchers interested in Chinese firms, innovation, labor markets,
+    non-listed firms, and the economic consequences of AI.
   signature_line: "Interested in how technological change enters firms, information environments, and real economic activity."
   highlight_items:
     - "AI in accounting and auditing"
     - "Labor market and non-listed firms"
     - "Hiring, firm registry, and patent data"
-    - "Text analysis, DID, and QCA"
+    - "Panel analysis, DID, ML, and QCA"
   overview_cards:
     - title: "Themes"
       body: "Research centers on AI, firm information environments, labor markets, and Chinese non-listed firms, with attention to how technology interacts with institutions."
     - title: "Data"
       body: "Works with large-scale hiring data, firm registry records, listed-firm innovation patent data, and research-ready processing of full patent databases."
     - title: "Methods"
-      body: "Combines text analysis, difference-in-differences, configurational analysis, and mechanism-focused empirical design."
+      body: "Works with panel analysis, multiple DID designs, LLM fine-tuning, Python, machine learning, and QCA in accounting research, with particular strength in empirical paper design."
   collaboration: >-
     Collaboration is welcome on topics related to AI and accounting, labor markets, non-listed firms,
     innovation, and patent-based research. Please feel free to reach out for coauthorship, data collaboration,
     research design discussions, or method exchange.
-  contact_note: "This public website exposes email only and does not provide downloads of private files."
 
 research_interests:
   - zh: "AI 与财会审"

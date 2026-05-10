@@ -2,10 +2,10 @@
 date: 2024-06-01
 group: research
 selected: true
-title_zh: "逆向混改与民营企业绿色创新"
-title_en: "Reverse Mixed Ownership Reform and Green Innovation of Private Firms"
-description_zh: "围绕“双碳”背景下逆向混改的经济后果开展研究，区分“混”与“改”两个阶段，并采用倒 U 型设计与 DID 识别绿色创新效率变化。"
-description_en: "A research project on the economic consequences of reverse mixed ownership reform under the dual-carbon agenda, distinguishing the ownership-mixing and governance-reform stages with inverted-U and DID designs."
-note_zh: "安徽财经大学研究生科研创新基金项目，已结项。"
-note_en: "Graduate Research Innovation Fund project at Anhui University of Finance and Economics, completed."
+title_zh: "国家自然科学基金项目参与"
+title_en: "Participation in National Natural Science Foundation Projects"
+description_zh: "硕士和博士阶段多次参与国家自然科学基金项目，围绕企业行为、创新活动与数据驱动的实证研究展开协作。"
+description_en: "During both the master's and Ph.D. stages, participated in multiple National Natural Science Foundation projects focused on firm behavior, innovation, and data-driven empirical research."
+note_zh: "关注项目选题细化、识别策略与研究流程落地。"
+note_en: "Worked on topic refinement, identification strategies, and empirical execution."
 ---

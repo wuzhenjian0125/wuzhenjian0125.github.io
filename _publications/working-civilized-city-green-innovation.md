@@ -1,7 +1,7 @@
 ---
 date: 2025-09-01
 year: 2025
-category: working
+category: archived
 selected: false
 title_zh: "城市文明与企业绿色创新：基于文明城市评选的准自然实验"
 title_en: "Urban Civilization and Corporate Green Innovation: A Quasi-natural Experiment Based on the Civilized City Evaluation"

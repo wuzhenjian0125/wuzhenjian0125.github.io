@@ -1,8 +1,8 @@
 ---
 date: 2023-03-01
 year: 2023
-category: published
-selected: true
+category: archived
+selected: false
 title_zh: "数字经济提高城市创新水平的路径探究：基于“TOE”框架下的组态分析"
 title_en: "How the Digital Economy Enhances Urban Innovation: A Configurational Analysis under the TOE Framework"
 authors_zh: "导师一作，武振建二作"

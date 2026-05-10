@@ -2,10 +2,10 @@
 date: 2025-12-01
 group: methods
 selected: false
-title_zh: "文本分析、因果识别与组态方法"
-title_en: "Text Analysis, Causal Identification, and Configurational Methods"
-description_zh: "熟悉 Python 文本分析、DID、QCA 等方法，并能根据研究问题灵活组合机器学习、计量识别与定性比较分析。"
-description_en: "Works with Python-based text analysis, DID, and QCA, combining machine learning, econometric identification, and configurational methods when appropriate."
-note_zh: "强调研究设计与可重复实证流程。"
-note_en: "Emphasizes research design and reproducible empirical workflows."
+title_zh: "面板分析、DID 与机器学习方法"
+title_en: "Panel Analysis, DID, and Machine-learning Methods"
+description_zh: "掌握面板分析、多种 DID 技术、大模型微调、Python、机器学习与 QCA 在会计学研究中的应用，并能围绕研究问题进行方法匹配。"
+description_en: "Works with panel analysis, multiple DID designs, LLM fine-tuning, Python, machine learning, and QCA in accounting research, and selects methods according to the underlying research question."
+note_zh: "尤其擅长对实证论文进行研究设计与识别思路打磨。"
+note_en: "Particularly strong in empirical paper design and identification strategy refinement."
 ---
