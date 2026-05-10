@@ -1,0 +1,33 @@
+---
+layout: default
+title: 武振建
+lang: zh
+nav_key: home
+alt_url: /en/
+description: 中文为主、支持中英文切换的学术主页，展示研究方向、论文、研究项目与合作信息。
+---
+{% assign labels = site.data.display.labels.zh %}
+{% assign featured_publications = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% assign featured_projects = site.projects | where: "selected", true | sort: "date" | reverse %}
+
+{% include hero.html %}
+{% include overview_section.html %}
+
+<section class="content-card">
+    <div class="section-heading">
+        <h2>{{ labels.research_interests }}</h2>
+    </div>
+    <div class="interest-grid">
+        {% for item in site.data.profile.research_interests %}
+        <article class="interest-card">
+            <h3>{{ item.zh }}</h3>
+            <p>{{ item.desc_zh }}</p>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+{% include experience_section.html %}
+{% include publication_card.html items=featured_publications %}
+{% include project_card.html items=featured_projects %}
+{% include contact_card.html %}

@@ -1,0 +1,29 @@
+---
+layout: default
+title: 论文
+lang: zh
+nav_key: publications
+alt_url: /en/publications/
+description: 武振建的已发表论文与工作论文。
+---
+{% assign labels = site.data.display.labels.zh %}
+<section class="content-card">
+    <div class="section-heading">
+        <h1 class="page-title">{{ labels.all_publications }}</h1>
+    </div>
+    <p class="page-intro">{{ labels.publication_page_intro }}</p>
+</section>
+
+{% for group in site.data.display.publication_groups %}
+<section class="content-card">
+    <div class="section-heading">
+        <h2>{% if group == 'published' %}{{ labels.published }}{% else %}{{ labels.working }}{% endif %}</h2>
+    </div>
+    <div class="stack-list">
+        {% assign items = site.publications | where: "category", group | sort: "date" | reverse %}
+        {% for item in items %}
+            {% include publication_item.html item=item %}
+        {% endfor %}
+    </div>
+</section>
+{% endfor %}

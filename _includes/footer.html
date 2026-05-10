@@ -1,0 +1,11 @@
+{% if page.lang == 'en' %}
+    {% assign labels = site.data.display.labels.en %}
+{% else %}
+    {% assign labels = site.data.display.labels.zh %}
+{% endif %}
+<footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <div>© {{ "now" | date: "%Y" }} Zhenjian Wu</div>
+        <div>{{ labels.footer }}</div>
+    </div>
+</footer>

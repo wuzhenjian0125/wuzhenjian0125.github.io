@@ -1,0 +1,18 @@
+{% if page.lang == 'en' %}
+    {% assign labels = site.data.display.labels.en %}
+    {% assign publications_url = '/en/publications/' %}
+{% else %}
+    {% assign labels = site.data.display.labels.zh %}
+    {% assign publications_url = '/publications/' %}
+{% endif %}
+<section class="content-card">
+    <div class="section-heading with-action">
+        <h2>{{ labels.selected_publications }}</h2>
+        <a href="{{ publications_url | relative_url }}">{{ labels.all_publications }}</a>
+    </div>
+    <div class="stack-list">
+        {% for item in include.items limit=site.data.display.homepage.publication_limit %}
+            {% include publication_item.html item=item %}
+        {% endfor %}
+    </div>
+</section>

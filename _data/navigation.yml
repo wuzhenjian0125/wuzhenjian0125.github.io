@@ -1,0 +1,27 @@
+zh:
+  brand: "武振建"
+  pages:
+    - key: home
+      name: "首页"
+      url: "/"
+    - key: publications
+      name: "论文"
+      url: "/publications/"
+    - key: projects
+      name: "研究与资源"
+      url: "/projects/"
+  switch_label: "EN"
+
+en:
+  brand: "Zhenjian Wu"
+  pages:
+    - key: home
+      name: "Home"
+      url: "/en/"
+    - key: publications
+      name: "Publications"
+      url: "/en/publications/"
+    - key: projects
+      name: "Research & Resources"
+      url: "/en/projects/"
+  switch_label: "中文"

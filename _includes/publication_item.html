@@ -1,0 +1,28 @@
+{% assign item = include.item %}
+<article class="paper-item">
+    <div class="paper-meta">
+        <span class="paper-year">{{ item.year }}</span>
+        <span class="paper-tag">
+            {% if page.lang == 'en' %}
+                {% if item.category == 'published' %}Published{% else %}Working Paper{% endif %}
+            {% else %}
+                {% if item.category == 'published' %}已发表{% else %}工作论文{% endif %}
+            {% endif %}
+        </span>
+    </div>
+    <h3 class="paper-title">{% if page.lang == 'en' %}{{ item.title_en }}{% else %}{{ item.title_zh }}{% endif %}</h3>
+    <p class="paper-authors">{% if page.lang == 'en' %}{{ item.authors_en }}{% else %}{{ item.authors_zh }}{% endif %}</p>
+    <p class="paper-venue">
+        {% if page.lang == 'en' %}
+            {{ item.venue_en }}
+            {% if item.status_en %}<span> · {{ item.status_en }}</span>{% endif %}
+        {% else %}
+            {{ item.venue_zh }}
+            {% if item.status_zh %}<span> · {{ item.status_zh }}</span>{% endif %}
+        {% endif %}
+    </p>
+    <p class="paper-summary">{% if page.lang == 'en' %}{{ item.summary_en }}{% else %}{{ item.summary_zh }}{% endif %}</p>
+    {% if item.doi %}
+    <p class="paper-links"><a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener">DOI: {{ item.doi }}</a></p>
+    {% endif %}
+</article>

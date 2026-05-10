@@ -1,0 +1,65 @@
+homepage:
+  publication_limit: 4
+  project_limit: 4
+
+publication_groups:
+  - published
+  - working
+
+project_groups:
+  - research
+  - data
+  - methods
+  - collaboration
+
+labels:
+  zh:
+    hero_tag: "会计学博士生"
+    hero_button_primary: "查看论文"
+    hero_button_secondary: "研究与合作"
+    hero_button_email: "邮箱联系"
+    overview: "研究概览"
+    research_interests: "研究方向"
+    education: "教育背景"
+    experience: "科研与实践经历"
+    awards: "荣誉奖励"
+    selected_publications: "代表性论文"
+    all_publications: "全部论文"
+    research_resources: "研究项目与数据资源"
+    all_projects: "全部研究与资源"
+    collaboration: "合作邀请"
+    contact: "联系方式"
+    published: "已发表论文"
+    working: "工作论文"
+    research: "科研项目"
+    data: "数据资源"
+    methods: "方法能力"
+    collaboration_group: "合作方向"
+    footer: "中文为默认入口，导航栏可切换英文版。"
+    publication_page_intro: "以下内容按公开版学术主页整理，优先展示已发表论文与当前工作论文。"
+    project_page_intro: "本页聚焦研究项目、数据资源、方法能力与合作方向，便于同行快速判断合作接口。"
+  en:
+    hero_tag: "Ph.D. Student in Accounting"
+    hero_button_primary: "View Publications"
+    hero_button_secondary: "Research & Resources"
+    hero_button_email: "Contact by Email"
+    overview: "Research Overview"
+    research_interests: "Research Interests"
+    education: "Education"
+    experience: "Research and Practice"
+    awards: "Honors and Awards"
+    selected_publications: "Selected Publications"
+    all_publications: "All Publications"
+    research_resources: "Research Projects and Resources"
+    all_projects: "All Research & Resources"
+    collaboration: "Collaboration"
+    contact: "Contact"
+    published: "Published Papers"
+    working: "Working Papers"
+    research: "Research Projects"
+    data: "Data Resources"
+    methods: "Methods"
+    collaboration_group: "Collaboration Directions"
+    footer: "Chinese is the default entry. Use the navbar to switch to English."
+    publication_page_intro: "This page presents a public-facing list of publications and ongoing working papers."
+    project_page_intro: "This page summarizes research projects, data resources, methods, and collaboration directions."

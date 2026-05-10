@@ -1,0 +1,167 @@
+zh:
+  site_title: "武振建学术主页"
+  name: "武振建"
+  name_secondary: "Zhenjian Wu"
+  position: "中南财经政法大学会计学博士生"
+  affiliation: "中南财经政法大学"
+  location: "武汉，中国"
+  email: "2671180152@qq.com"
+  bio: >-
+    武振建，中南财经政法大学会计学博士生。研究关注 AI 在财务、会计与审计中的应用，
+    以及中国非上市企业、劳动市场、分析师与债券市场等议题。当前工作强调利用大规模招聘、
+    工商和专利数据开展可复制的实证研究，并结合文本分析、因果识别与组态分析等方法推动问题识别与机制解释。
+  bio_extra: >-
+    这个主页既用于展示当前研究进展，也希望与对中国企业、创新、劳动市场和 AI 经济后果感兴趣的研究者建立合作。
+  signature_line: "关注技术变迁如何进入企业、信息环境与真实经济活动。"
+  highlight_items:
+    - "AI 与财会审"
+    - "劳动市场与非上市企业"
+    - "招聘、工商与专利数据"
+    - "文本分析、DID 与 QCA"
+  overview_cards:
+    - title: "研究议题"
+      body: "围绕 AI、企业信息环境、劳动市场和非上市企业行为展开研究，强调技术变迁与制度环境的交互。"
+    - title: "数据基础"
+      body: "可使用招聘数据、工商数据、上市公司创新专利数据，并熟悉全量专利数据的研究化处理。"
+    - title: "方法路线"
+      body: "结合文本分析、双重差分、组态分析与机制识别，尽量把研究问题转化为可复核的经验设计。"
+  collaboration: >-
+    欢迎围绕 AI 与财会审、劳动市场、非上市企业、创新与专利等主题开展合作。
+    如果你对共同写作、数据共建、研究设计讨论或方法交流感兴趣，欢迎通过邮箱联系。
+  contact_note: "当前站点仅公开邮箱，不提供私人文件下载。"
+
+en:
+  site_title: "Zhenjian Wu"
+  name: "Zhenjian Wu"
+  name_secondary: "武振建"
+  position: "Ph.D. Student in Accounting, Zhongnan University of Economics and Law"
+  affiliation: "Zhongnan University of Economics and Law"
+  location: "Wuhan, China"
+  email: "2671180152@qq.com"
+  bio: >-
+    Zhenjian Wu is a Ph.D. student in Accounting at Zhongnan University of Economics and Law.
+    His research focuses on AI in accounting, finance, and auditing, as well as Chinese non-listed firms,
+    labor markets, analysts, and bond markets. He is particularly interested in building reproducible empirical
+    research with large-scale hiring, firm registry, and patent data, using text analysis, causal identification,
+    and configurational methods.
+  bio_extra: >-
+    This website serves both as a public academic profile and as an invitation for future collaborators
+    interested in Chinese firms, innovation, labor markets, and the economic consequences of AI.
+  signature_line: "Interested in how technological change enters firms, information environments, and real economic activity."
+  highlight_items:
+    - "AI in accounting and auditing"
+    - "Labor market and non-listed firms"
+    - "Hiring, firm registry, and patent data"
+    - "Text analysis, DID, and QCA"
+  overview_cards:
+    - title: "Themes"
+      body: "Research centers on AI, firm information environments, labor markets, and Chinese non-listed firms, with attention to how technology interacts with institutions."
+    - title: "Data"
+      body: "Works with large-scale hiring data, firm registry records, listed-firm innovation patent data, and research-ready processing of full patent databases."
+    - title: "Methods"
+      body: "Combines text analysis, difference-in-differences, configurational analysis, and mechanism-focused empirical design."
+  collaboration: >-
+    Collaboration is welcome on topics related to AI and accounting, labor markets, non-listed firms,
+    innovation, and patent-based research. Please feel free to reach out for coauthorship, data collaboration,
+    research design discussions, or method exchange.
+  contact_note: "This public website exposes email only and does not provide downloads of private files."
+
+research_interests:
+  - zh: "AI 与财会审"
+    en: "AI in Accounting and Auditing"
+    desc_zh: "关注 AI 技术对财务报告、审计流程、信息中介和资本市场行为的影响。"
+    desc_en: "Examines how AI technologies reshape financial reporting, auditing, information intermediaries, and capital market behavior."
+  - zh: "AI 与劳动市场"
+    en: "AI and Labor Markets"
+    desc_zh: "关注智能计算基础设施、岗位需求变化与企业数字化转型之间的关系。"
+    desc_en: "Studies intelligent computing infrastructure, labor demand adjustment, and digital transformation at the firm level."
+  - zh: "非上市企业（中国）"
+    en: "Chinese Non-listed Firms"
+    desc_zh: "以工商与企业登记数据为基础，研究中国非上市企业的行为、治理与创新。"
+    desc_en: "Uses business registration and firm-level records to study behavior, governance, and innovation among Chinese non-listed firms."
+  - zh: "分析师与债券市场"
+    en: "Analysts and Bond Markets"
+    desc_zh: "关注资本市场信息环境、分析师行为与债券市场定价机制。"
+    desc_en: "Explores information environments, analyst behavior, and pricing mechanisms in bond markets."
+
+education:
+  - institution_zh: "中南财经政法大学"
+    institution_en: "Zhongnan University of Economics and Law"
+    degree_zh: "会计学博士（在读）"
+    degree_en: "Ph.D. in Accounting (ongoing)"
+    date: "2024.09 - 至今"
+    date_en: "Sep. 2024 - Present"
+  - institution_zh: "安徽财经大学"
+    institution_en: "Anhui University of Finance and Economics"
+    degree_zh: "会计学硕士"
+    degree_en: "M.A. in Accounting"
+    date: "2021.08 - 2024.06"
+    date_en: "Aug. 2021 - Jun. 2024"
+  - institution_zh: "中北大学"
+    institution_en: "North University of China"
+    degree_zh: "财务管理本科"
+    degree_en: "B.A. in Financial Management"
+    date: "2017.09 - 2021.06"
+    date_en: "Sep. 2017 - Jun. 2021"
+
+experience:
+  - org_zh: "安徽财经大学研究生科研创新基金项目"
+    org_en: "Graduate Research Innovation Fund, Anhui University of Finance and Economics"
+    role_zh: "主持项目：双碳背景下逆向混改与民营企业绿色创新能力提升"
+    role_en: "Principal Investigator: Reverse Mixed Ownership Reform and Green Innovation of Private Firms under the Dual-carbon Agenda"
+    date: "2023 - 已结项"
+    date_en: "2023 - Completed"
+    summary_zh: "系统区分逆向混改的“混”与“改”两个阶段，分别采用倒 U 型模型与 DID 模型识别绿色创新效率的变化。"
+    summary_en: "Separated the ownership-mixing stage from the governance-reform stage and used inverted-U and DID designs to identify changes in green innovation efficiency."
+  - org_zh: "国家社会科学基金一般项目"
+    org_en: "National Social Science Fund of China"
+    role_zh: "参与项目：数字经济反垄断对企业创新的影响机制与效应研究"
+    role_en: "Research Participant: Mechanisms and Effects of Digital-economy Antitrust on Corporate Innovation"
+    date: "在研"
+    date_en: "Ongoing"
+    summary_zh: "参与数字经济、竞争政策与企业创新之间机制识别的研究工作。"
+    summary_en: "Contributes to research on the mechanisms connecting digital economy regulation, competition policy, and corporate innovation."
+  - org_zh: "学术论坛与论文汇报"
+    org_en: "Academic Workshops and Conference Presentations"
+    role_zh: "汇报多篇论文并获一等奖及多个三等奖"
+    role_en: "Presented multiple papers and received one first prize and several third prizes"
+    date: "2022 - 2023"
+    date_en: "2022 - 2023"
+    summary_zh: "参加安徽省会计学者论坛、江苏省研究生论坛等活动，围绕文本分析与绿色创新等议题进行汇报。"
+    summary_en: "Presented research on text analysis, green innovation, and related topics at provincial accounting and graduate research forums."
+  - org_zh: "山西中审华会计师事务所"
+    org_en: "Shanxi Zhongshenhua Certified Public Accountants"
+    role_zh: "审计助理"
+    role_en: "Audit Assistant"
+    date: "2020.12 - 2021.01"
+    date_en: "Dec. 2020 - Jan. 2021"
+    summary_zh: "参与山西烟草分公司现场审计，负责抽凭、存货监盘与函证等程序。"
+    summary_en: "Worked on a field audit project, handling voucher inspection, inventory observation, and confirmation procedures."
+  - org_zh: "山西省襄垣县财政局"
+    org_en: "Xiangyuan County Finance Bureau, Shanxi"
+    role_zh: "办公室助理"
+    role_en: "Office Assistant"
+    date: "2019.07 - 2019.08"
+    date_en: "Jul. 2019 - Aug. 2019"
+    summary_zh: "参与通知、文件和往来函件撰写，并协助完成会议与下乡等事务性工作。"
+    summary_en: "Assisted with official documents, correspondence, and administrative support for meetings and field activities."
+
+awards:
+  - name_zh: "安徽省优秀毕业生"
+    name_en: "Outstanding Graduate of Anhui Province"
+    date: "2024"
+  - name_zh: "安徽财经大学一等学业奖学金（两次）"
+    name_en: "First-Class Academic Scholarship, Anhui University of Finance and Economics (twice)"
+    date: "2022 / 2023"
+  - name_zh: "安徽财经大学优秀研究生（两次）"
+    name_en: "Outstanding Graduate Student, Anhui University of Finance and Economics (twice)"
+    date: "2022 / 2023"
+  - name_zh: "全国大学生统计建模大赛省级二等奖（两次）"
+    name_en: "Provincial Second Prize, National College Student Statistical Modeling Competition (twice)"
+    date: "2020 / 2021"
+  - name_zh: "全国大学生能源学术创意大赛省级三等奖"
+    name_en: "Provincial Third Prize, National Energy Academic Creativity Competition"
+    date: "2020"
+  - name_zh: "东方财富杯省级三等奖"
+    name_en: "Provincial Third Prize, Eastmoney Cup"
+    date: "2020"

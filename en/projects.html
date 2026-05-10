@@ -1,0 +1,36 @@
+---
+layout: default
+title: Research & Resources
+lang: en
+nav_key: projects
+alt_url: /projects/
+description: Research projects, data resources, methods, and collaboration directions.
+---
+{% assign labels = site.data.display.labels.en %}
+<section class="content-card">
+    <div class="section-heading">
+        <h1 class="page-title">{{ labels.all_projects }}</h1>
+    </div>
+    <p class="page-intro">{{ labels.project_page_intro }}</p>
+</section>
+
+{% for group in site.data.display.project_groups %}
+<section class="content-card">
+    <div class="section-heading">
+        <h2>
+            {% case group %}
+                {% when 'research' %}{{ labels.research }}
+                {% when 'data' %}{{ labels.data }}
+                {% when 'methods' %}{{ labels.methods }}
+                {% else %}{{ labels.collaboration_group }}
+            {% endcase %}
+        </h2>
+    </div>
+    <div class="project-grid">
+        {% assign items = site.projects | where: "group", group | sort: "date" | reverse %}
+        {% for item in items %}
+            {% include project_item.html item=item %}
+        {% endfor %}
+    </div>
+</section>
+{% endfor %}

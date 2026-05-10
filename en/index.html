@@ -1,0 +1,33 @@
+---
+layout: default
+title: Zhenjian Wu
+lang: en
+nav_key: home
+alt_url: /
+description: A bilingual academic homepage featuring research interests, publications, research resources, and collaboration information.
+---
+{% assign labels = site.data.display.labels.en %}
+{% assign featured_publications = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% assign featured_projects = site.projects | where: "selected", true | sort: "date" | reverse %}
+
+{% include hero.html %}
+{% include overview_section.html %}
+
+<section class="content-card">
+    <div class="section-heading">
+        <h2>{{ labels.research_interests }}</h2>
+    </div>
+    <div class="interest-grid">
+        {% for item in site.data.profile.research_interests %}
+        <article class="interest-card">
+            <h3>{{ item.en }}</h3>
+            <p>{{ item.desc_en }}</p>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
+{% include experience_section.html %}
+{% include publication_card.html items=featured_publications %}
+{% include project_card.html items=featured_projects %}
+{% include contact_card.html %}

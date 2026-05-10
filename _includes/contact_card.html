@@ -1,0 +1,20 @@
+{% if page.lang == 'en' %}
+    {% assign profile_text = site.data.profile.en %}
+    {% assign labels = site.data.display.labels.en %}
+{% else %}
+    {% assign profile_text = site.data.profile.zh %}
+    {% assign labels = site.data.display.labels.zh %}
+{% endif %}
+<section class="content-card contact-card">
+    <div class="section-heading">
+        <h2>{{ labels.collaboration }}</h2>
+    </div>
+    <p class="contact-copy">{{ profile_text.collaboration }}</p>
+    <div class="contact-box">
+        <div>
+            <div class="contact-label">{{ labels.contact }}</div>
+            <a href="mailto:{{ profile_text.email }}">{{ profile_text.email }}</a>
+        </div>
+        <p class="contact-note">{{ profile_text.contact_note }}</p>
+    </div>
+</section>
