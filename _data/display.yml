@@ -35,7 +35,7 @@ labels:
     data: "数据资源"
     methods: "方法能力"
     collaboration_group: "合作方向"
-    footer: "中文为默认入口，导航栏可切换英文版。"
+    footer: "当前页面为中文版本，可通过导航栏切换到英文主页。"
     publication_page_intro: "以下内容按公开版学术主页整理，优先展示已发表论文与当前工作论文。"
     project_page_intro: "本页聚焦研究项目、数据资源、方法能力与合作方向，便于同行快速判断合作接口。"
   en:
@@ -60,6 +60,6 @@ labels:
     data: "Data Resources"
     methods: "Methods"
     collaboration_group: "Collaboration Directions"
-    footer: "Chinese is the default entry. Use the navbar to switch to English."
+    footer: "This bilingual site opens in English by default, and the full Chinese version is available from the navigation bar."
     publication_page_intro: "This page presents a public-facing list of publications and ongoing working papers."
     project_page_intro: "This page summarizes research projects, data resources, methods, and collaboration directions."

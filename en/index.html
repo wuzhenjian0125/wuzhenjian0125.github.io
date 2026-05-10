@@ -1,33 +1,14 @@
 ---
 layout: default
-title: Zhenjian Wu
+title: Redirecting
 lang: en
-nav_key: home
-alt_url: /
-description: A bilingual academic homepage featuring research interests, publications, research resources, and collaboration information.
+alt_url: /zh/
+permalink: /en/
 ---
-{% assign labels = site.data.display.labels.en %}
-{% assign featured_publications = site.publications | where: "selected", true | sort: "date" | reverse %}
-{% assign featured_projects = site.projects | where: "selected", true | sort: "date" | reverse %}
-
-{% include hero.html %}
-{% include overview_section.html %}
-
-<section class="content-card">
-    <div class="section-heading">
-        <h2>{{ labels.research_interests }}</h2>
-    </div>
-    <div class="interest-grid">
-        {% for item in site.data.profile.research_interests %}
-        <article class="interest-card">
-            <h3>{{ item.en }}</h3>
-            <p>{{ item.desc_en }}</p>
-        </article>
-        {% endfor %}
-    </div>
+<meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+<link rel="canonical" href="{{ '/' | relative_url }}">
+<section class="content-card text-center">
+    <h1 class="page-title">Redirecting…</h1>
+    <p class="page-intro">This English page has moved to the site root.</p>
+    <p class="page-intro"><a href="{{ '/' | relative_url }}">Go to the homepage</a></p>
 </section>
-
-{% include experience_section.html %}
-{% include publication_card.html items=featured_publications %}
-{% include project_card.html items=featured_projects %}
-{% include contact_card.html %}

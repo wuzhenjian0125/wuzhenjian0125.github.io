@@ -3,13 +3,13 @@ zh:
   pages:
     - key: home
       name: "首页"
-      url: "/"
+      url: "/zh/"
     - key: publications
       name: "论文"
-      url: "/publications/"
+      url: "/zh/publications/"
     - key: projects
       name: "研究与资源"
-      url: "/projects/"
+      url: "/zh/projects/"
   switch_label: "EN"
 
 en:
@@ -17,11 +17,11 @@ en:
   pages:
     - key: home
       name: "Home"
-      url: "/en/"
+      url: "/"
     - key: publications
       name: "Publications"
-      url: "/en/publications/"
+      url: "/publications/"
     - key: projects
       name: "Research & Resources"
-      url: "/en/projects/"
+      url: "/projects/"
   switch_label: "中文"

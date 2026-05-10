@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Zhenjian Wu
-lang: en
+title: 武振建
+lang: zh
 nav_key: home
-alt_url: /zh/
-description: Bilingual academic homepage with English as the default entry and a full Chinese version available via language switch.
+alt_url: /
+description: 中文学术主页，展示研究方向、论文、研究项目与合作信息。
 ---
-{% assign labels = site.data.display.labels.en %}
+{% assign labels = site.data.display.labels.zh %}
 {% assign featured_publications = site.publications | where: "selected", true | sort: "date" | reverse %}
 {% assign featured_projects = site.projects | where: "selected", true | sort: "date" | reverse %}
 
@@ -20,8 +20,8 @@ description: Bilingual academic homepage with English as the default entry and a
     <div class="interest-grid">
         {% for item in site.data.profile.research_interests %}
         <article class="interest-card">
-            <h3>{{ item.en }}</h3>
-            <p>{{ item.desc_en }}</p>
+            <h3>{{ item.zh }}</h3>
+            <p>{{ item.desc_zh }}</p>
         </article>
         {% endfor %}
     </div>

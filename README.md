@@ -1,11 +1,12 @@
 # wuzhenjian0125.github.io
 
-武振建的中英双语学术主页。中文为默认入口，英文版位于 `/en/`。
+武振建的中英双语学术主页。网站默认打开英文版，中文完整版本位于 `/zh/`，两种语言都可以通过导航栏自由切换；旧的 `/en/` 路径保留为英文跳转。
 
 ## 结构
 
-- `index.html`、`publications.html`、`projects.html`：中文页面
-- `en/`：英文页面
+- `index.html`、`publications.html`、`projects.html`：英文默认页面
+- `zh/`：中文页面
+- `en/`：兼容旧链接的英文跳转页面
 - `_data/`：双语个人信息、导航与展示配置
 - `_publications/`：论文条目
 - `_projects/`：研究项目、数据资源、方法能力与合作方向

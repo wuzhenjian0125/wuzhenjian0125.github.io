@@ -17,9 +17,7 @@ html {
 }
 
 body {
-    background:
-        radial-gradient(circle at top left, rgba(122, 91, 47, 0.08), transparent 28%),
-        linear-gradient(180deg, #faf7f1 0%, var(--paper) 42%, #f7f3ea 100%);
+    background: #ffffff;
     color: var(--ink);
     font-family: "IBM Plex Sans", "Noto Sans SC", sans-serif;
     line-height: 1.75;
@@ -27,16 +25,7 @@ body {
 }
 
 body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    background-image:
-        linear-gradient(rgba(30, 44, 57, 0.018) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(30, 44, 57, 0.018) 1px, transparent 1px);
-    background-size: 26px 26px;
-    mask-image: radial-gradient(circle at center, black 30%, transparent 92%);
-    opacity: 0.32;
+    display: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,7 +48,7 @@ a:hover {
 }
 
 .site-navbar {
-    background: rgba(250, 247, 241, 0.9);
+    background: rgba(255, 255, 255, 0.96);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--line);
     box-shadow: 0 10px 24px rgba(30, 44, 57, 0.04);
@@ -94,8 +83,8 @@ a:hover {
 .content-card {
     position: relative;
     overflow: hidden;
-    background: var(--card);
-    border: 1px solid rgba(255, 255, 255, 0.55);
+    background: #ffffff;
+    border: 1px solid rgba(30, 44, 57, 0.09);
     border-radius: 1.35rem;
     box-shadow: var(--shadow);
     margin-bottom: 1.5rem;
@@ -103,7 +92,7 @@ a:hover {
 }
 
 .hero-card {
-    padding: 2.4rem 2rem;
+    padding: 2.8rem 2.3rem;
 }
 
 .hero-backdrop {
@@ -128,7 +117,7 @@ a:hover {
 }
 
 .hero-title {
-    font-size: clamp(2.1rem, 5vw, 3.4rem);
+    font-size: clamp(2.7rem, 5.8vw, 4.5rem);
     line-height: 1.12;
     margin-bottom: 0.7rem;
 }
@@ -136,20 +125,21 @@ a:hover {
 .hero-title span {
     display: block;
     font-family: "Cormorant Garamond", serif;
-    font-size: clamp(1.2rem, 2.8vw, 1.8rem);
+    font-size: clamp(1rem, 2vw, 1.45rem);
     color: var(--ink-soft);
-    margin-top: 0.35rem;
+    margin-top: 0.55rem;
 }
 
 .hero-position {
-    font-size: 1.1rem;
+    font-size: 1.22rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
 .hero-bio {
-    max-width: 48rem;
-    margin-bottom: 0.8rem;
+    max-width: 40rem;
+    margin-bottom: 0.95rem;
+    font-size: 1.02rem;
 }
 
 .hero-bio-muted {
@@ -159,7 +149,7 @@ a:hover {
 .hero-signature {
     color: var(--accent);
     font-family: "Noto Serif SC", serif;
-    font-size: 0.98rem;
+    font-size: 1rem;
     letter-spacing: 0.02em;
     margin-bottom: 0;
 }
@@ -218,7 +208,8 @@ a:hover {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(244, 239, 231, 0.96));
     border: 1px solid rgba(30, 44, 57, 0.08);
     border-radius: 1.15rem;
-    padding: 1.3rem;
+    padding: 1.15rem 1.2rem;
+    margin-bottom: 1rem;
 }
 
 .hero-panel-title {
@@ -247,6 +238,27 @@ a:hover {
     margin-top: 1rem;
 }
 
+.hero-visual-wrap {
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.hero-figure {
+    margin: 0;
+    background: #ffffff;
+    border: 1px solid rgba(30, 44, 57, 0.09);
+    border-radius: 1.15rem;
+    padding: 0.85rem;
+    box-shadow: 0 14px 28px rgba(30, 44, 57, 0.06);
+}
+
+.hero-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+}
+
 .hero-chip {
     background: rgba(255, 255, 255, 0.86);
     border: 1px solid rgba(122, 91, 47, 0.18);
@@ -263,7 +275,7 @@ a:hover {
 .content-card:hover,
 .hero-card:hover {
     transform: translateY(-1px);
-    box-shadow: 0 22px 48px rgba(30, 44, 57, 0.1);
+    box-shadow: 0 20px 40px rgba(30, 44, 57, 0.07);
 }
 
 .section-heading {
@@ -277,7 +289,7 @@ a:hover {
 .section-heading h1,
 .section-heading h2 {
     margin: 0;
-    font-size: clamp(1.45rem, 2.3vw, 2rem);
+    font-size: clamp(1.6rem, 2.5vw, 2.15rem);
     position: relative;
     padding-bottom: 0.35rem;
 }
@@ -354,7 +366,7 @@ a:hover {
 .project-item h3,
 .award-item h3,
 .paper-title {
-    font-size: 1.08rem;
+    font-size: 1.14rem;
     margin-bottom: 0.45rem;
 }
 
@@ -498,6 +510,7 @@ a:hover {
 
 .paper-summary {
     margin-top: 0.45rem;
+    font-size: 0.98rem;
 }
 
 .paper-item,
@@ -569,6 +582,11 @@ a:hover {
 
     .hero-card {
         padding: 1.7rem 1.2rem;
+    }
+
+    .hero-visual-wrap {
+        padding-left: 0;
+        margin-top: 1.4rem;
     }
 
     .content-card {
