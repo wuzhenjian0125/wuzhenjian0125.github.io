@@ -13,10 +13,8 @@ redirect_from:
 {% assign profile_text = site.data.profile.en %}
 {% assign published = site.publications | where: "category", "published" | sort: "date" | reverse %}
 {% assign working = site.publications | where: "category", "working" | sort: "date" | reverse %}
-{% assign research_projects = site.projects | where: "group", "research" | sort: "date" | reverse %}
 {% assign data_projects = site.projects | where: "group", "data" | sort: "date" | reverse %}
 {% assign methods_projects = site.projects | where: "group", "methods" | sort: "date" | reverse %}
-{% assign collaboration_projects = site.projects | where: "group", "collaboration" | sort: "date" | reverse %}
 
 <span class="anchor" id="about-me"></span>
 <section class="content-section content-section--intro">
@@ -24,7 +22,6 @@ redirect_from:
   <p>{{ profile_text.bio }}</p>
   <p>{{ profile_text.credential_line }}</p>
   <p>{{ profile_text.bio_extra }}</p>
-  <p class="signature-line">{{ profile_text.signature_line }}</p>
   <div class="overview-grid">
     {% for card in profile_text.overview_cards %}
     <article class="overview-card">
@@ -91,16 +88,6 @@ redirect_from:
 <section class="content-section">
   <h2>Research Resources</h2>
   <div class="resource-group">
-    <h3>Research Projects</h3>
-    {% for item in research_projects %}
-    <article class="resource-entry">
-      <h4>{{ item.title_en }}</h4>
-      <p>{{ item.description_en }}</p>
-      <p class="resource-note">{{ item.note_en }}</p>
-    </article>
-    {% endfor %}
-  </div>
-  <div class="resource-group">
     <h3>Data Resources</h3>
     {% for item in data_projects %}
     <article class="resource-entry">
@@ -136,25 +123,4 @@ redirect_from:
     </li>
     {% endfor %}
   </ul>
-</section>
-
-<span class="anchor" id="collaboration"></span>
-<section class="content-section">
-  <h2>Collaboration</h2>
-  <p>{{ profile_text.collaboration }}</p>
-  {% for item in collaboration_projects %}
-  <article class="resource-entry">
-    <h4>{{ item.title_en }}</h4>
-    <p>{{ item.description_en }}</p>
-    <p class="resource-note">{{ item.note_en }}</p>
-  </article>
-  {% endfor %}
-</section>
-
-<span class="anchor" id="contact"></span>
-<section class="content-section">
-  <h2>Contact</h2>
-  <p>Email is the only public contact channel on this website.</p>
-  <p><a href="mailto:{{ profile_text.email }}">{{ profile_text.email }}</a></p>
-  <p>{{ profile_text.affiliation }} · {{ profile_text.location }}</p>
 </section>

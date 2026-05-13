@@ -14,7 +14,6 @@ zh:
   credential_line: "已通过中国注册会计师考试专业阶段。"
   bio_extra: >-
     希望与对中国企业、创新、劳动市场、非上市企业和 AI 经济后果感兴趣的研究者建立合作。
-  signature_line: "关注技术变迁如何进入企业、信息环境与真实经济活动。"
   highlight_items:
     - "AI 与财会审"
     - "劳动市场与非上市企业"
@@ -27,9 +26,6 @@ zh:
       body: "可使用招聘数据、工商数据、上市公司创新专利数据，并熟悉全量专利数据的研究化处理。"
     - title: "方法路线"
       body: "掌握面板分析、多种 DID 技术、大模型微调、Python、机器学习与 QCA 在会计学研究中的应用，并擅长对实证论文进行设计。"
-  collaboration: >-
-    欢迎围绕 AI 与财会审、劳动市场、非上市企业、创新与专利等主题开展合作。
-    如果你对共同写作、数据共建、研究设计讨论或方法交流感兴趣，欢迎通过邮箱联系。
 
 en:
   site_title: "Zhenjian Wu"
@@ -49,7 +45,6 @@ en:
   bio_extra: >-
     Open to collaboration with researchers interested in Chinese firms, innovation, labor markets,
     non-listed firms, and the economic consequences of AI.
-  signature_line: "Interested in how technological change enters firms, information environments, and real economic activity."
   highlight_items:
     - "AI in accounting and auditing"
     - "Labor market and non-listed firms"
@@ -62,10 +57,6 @@ en:
       body: "Works with large-scale hiring data, firm registry records, listed-firm innovation patent data, and research-ready processing of full patent databases."
     - title: "Methods"
       body: "Works with panel analysis, multiple DID designs, LLM fine-tuning, Python, machine learning, and QCA in accounting research, with particular strength in empirical paper design."
-  collaboration: >-
-    Collaboration is welcome on topics related to AI and accounting, labor markets, non-listed firms,
-    innovation, and patent-based research. Please feel free to reach out for coauthorship, data collaboration,
-    research design discussions, or method exchange.
 
 research_interests:
   - zh: "AI 与财会审"

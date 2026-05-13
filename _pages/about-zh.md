@@ -10,10 +10,8 @@ description: "武振建中文学术主页，英文版为默认入口。"
 {% assign profile_text = site.data.profile.zh %}
 {% assign published = site.publications | where: "category", "published" | sort: "date" | reverse %}
 {% assign working = site.publications | where: "category", "working" | sort: "date" | reverse %}
-{% assign research_projects = site.projects | where: "group", "research" | sort: "date" | reverse %}
 {% assign data_projects = site.projects | where: "group", "data" | sort: "date" | reverse %}
 {% assign methods_projects = site.projects | where: "group", "methods" | sort: "date" | reverse %}
-{% assign collaboration_projects = site.projects | where: "group", "collaboration" | sort: "date" | reverse %}
 
 <span class="anchor" id="about-me"></span>
 <section class="content-section content-section--intro">
@@ -21,7 +19,6 @@ description: "武振建中文学术主页，英文版为默认入口。"
   <p>{{ profile_text.bio }}</p>
   <p>{{ profile_text.credential_line }}</p>
   <p>{{ profile_text.bio_extra }}</p>
-  <p class="signature-line">{{ profile_text.signature_line }}</p>
   <div class="overview-grid">
     {% for card in profile_text.overview_cards %}
     <article class="overview-card">
@@ -88,16 +85,6 @@ description: "武振建中文学术主页，英文版为默认入口。"
 <section class="content-section">
   <h2>研究资源</h2>
   <div class="resource-group">
-    <h3>科研项目</h3>
-    {% for item in research_projects %}
-    <article class="resource-entry">
-      <h4>{{ item.title_zh }}</h4>
-      <p>{{ item.description_zh }}</p>
-      <p class="resource-note">{{ item.note_zh }}</p>
-    </article>
-    {% endfor %}
-  </div>
-  <div class="resource-group">
     <h3>数据资源</h3>
     {% for item in data_projects %}
     <article class="resource-entry">
@@ -133,25 +120,4 @@ description: "武振建中文学术主页，英文版为默认入口。"
     </li>
     {% endfor %}
   </ul>
-</section>
-
-<span class="anchor" id="collaboration"></span>
-<section class="content-section">
-  <h2>合作</h2>
-  <p>{{ profile_text.collaboration }}</p>
-  {% for item in collaboration_projects %}
-  <article class="resource-entry">
-    <h4>{{ item.title_zh }}</h4>
-    <p>{{ item.description_zh }}</p>
-    <p class="resource-note">{{ item.note_zh }}</p>
-  </article>
-  {% endfor %}
-</section>
-
-<span class="anchor" id="contact"></span>
-<section class="content-section">
-  <h2>联系</h2>
-  <p>当前站点仅公开邮箱，不提供私人资料下载。</p>
-  <p><a href="mailto:{{ profile_text.email }}">{{ profile_text.email }}</a></p>
-  <p>{{ profile_text.affiliation }} · {{ profile_text.location }}</p>
 </section>

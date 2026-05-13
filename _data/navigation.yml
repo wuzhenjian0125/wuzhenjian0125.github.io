@@ -16,10 +16,6 @@ en:
       url: "/#research-resources"
     - title: "Educations"
       url: "/#educations"
-    - title: "Collaboration"
-      url: "/#collaboration"
-    - title: "Contact"
-      url: "/#contact"
 
 zh:
   home_label: "首页"
@@ -39,7 +35,3 @@ zh:
       url: "/zh/#research-resources"
     - title: "教育背景"
       url: "/zh/#educations"
-    - title: "合作"
-      url: "/zh/#collaboration"
-    - title: "联系"
-      url: "/zh/#contact"
