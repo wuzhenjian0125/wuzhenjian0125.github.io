@@ -19,6 +19,7 @@ description: "武振建中文学术主页，英文版为默认入口。"
 <section class="content-section content-section--intro">
   <p class="section-kicker">关于我</p>
   <p>{{ profile_text.bio }}</p>
+  <p>{{ profile_text.credential_line }}</p>
   <p>{{ profile_text.bio_extra }}</p>
   <p class="signature-line">{{ profile_text.signature_line }}</p>
   <div class="overview-grid">

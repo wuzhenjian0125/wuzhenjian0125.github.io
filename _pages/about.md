@@ -22,6 +22,7 @@ redirect_from:
 <section class="content-section content-section--intro">
   <p class="section-kicker">About Me</p>
   <p>{{ profile_text.bio }}</p>
+  <p>{{ profile_text.credential_line }}</p>
   <p>{{ profile_text.bio_extra }}</p>
   <p class="signature-line">{{ profile_text.signature_line }}</p>
   <div class="overview-grid">
